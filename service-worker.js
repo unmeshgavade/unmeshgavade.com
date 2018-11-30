@@ -1,5 +1,5 @@
-var dataCacheName = 'abhisheksatreV1';
-var cacheName = 'abhisheksatreC-V1';
+var dataCacheName = 'unmeshgavadeV1';
+var cacheName = 'unmeshgavadeC-V1';
 var filesToCache = [
   '/',
   '/index.html',
