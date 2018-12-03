@@ -13,7 +13,7 @@
 
     <title>Unmesh Gavade</title>
     <link rel="icon" href="img/favicon.png">
-    <link rel="manifest" href="/manifest.json">
+    <link rel="manifest" href="manifest.json">
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -263,6 +263,18 @@
       gtag('js', new Date());
 
       gtag('config', 'UA-130018514-1');
+    </script>
+    <script>
+        (function() {
+          'use strict';
+          var arr = document.images;
+
+          if ('serviceWorker' in navigator) {
+            navigator.serviceWorker
+                    .register('./service-worker.js')
+                    .then(function() { console.log('Service Worker Registered'); });
+          }
+        })();
     </script>
 
   </body>

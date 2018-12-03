@@ -9,7 +9,7 @@ var filesToCache = [
   '/css/resume.min.css?v=124',
   'images/logo.png',
   'images/certificate.png',
-  'images/profile.png',
+  'images/profile.png', 
   'images/profile.jpeg'
 ];
 
