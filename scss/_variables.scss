@@ -25,7 +25,10 @@ $green:   #28a745 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
 
-$primary:       $blue !default;
+
+$myGradient: linear-gradient(to right top, #79f58e, #dbd347, #ffa555, #ff7a99, #f77be7) !default;
+
+$primary:       $myGradient !default;
 $secondary:     $gray-600 !default;
 $success:       $green !default;
 $info:          $cyan !default;
